@@ -20,7 +20,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 	{
 		transform.position = Input.mousePosition;
 	}
-
 	#endregion
 
 	#region IEndDragHandler implementation
